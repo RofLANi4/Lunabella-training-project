@@ -4,7 +4,7 @@ const mongoose = require("mongoose");
 const port = process.env.PORT || 5000;
 
 const connectionString =
-  "mongodb+srv://shuliakivskyi:123@cluster0.fjkkmek.mongodb.net/Lunabella";
+  "mongodb+srv://Zhovtovatiuk:12345@cluster0.fjkkmek.mongodb.net/Lunabella";
 
 mongoose
   .connect(connectionString, {
